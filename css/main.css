@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Muli|Kanit');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#inicio{
+    background: #020003;
+    height: 84px;
+}
+
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+nav {
+    width: 50%;
+    padding-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    float: right;
+}
+
+nav a{
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+}
+
+nav a:hover{ 
+    background-color: #CAFBF9;
+    border-bottom: solid 3px #37cadd;
+}
+
+#medio, #fin{
+    background: #EA7070 ;
+}
+
+#medio{
+    text-align: center;
+}
+
+.logo-perro{
+    width: 70%;
+}
+
+#fin{
+    background: #020003;
+    width: 100%;
+    height: 120px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.telefono{  
+    font-family: "Kanit", sans-serif;
+    font-size: 1.0em;
+    color: #FFF;
+    font-weight: bold;  
+    padding-left: 20px; 
+    padding-right: 80px;
+}
+
+.info{
+    font-family: "Kanit", sans-serif;
+    font-size: 0.9em;
+    color: #FFF;
+    font-weight: bold;
+    padding-left: 220px; 
+    padding-right: 20px;
+}
+
+.social{
+    padding-left: 250px; 
+    padding-right: 20px;
+}
+
+.icon-facebook, .icon-google-plus, .icon-instagram, .icon-envelop{
+    margin-right: 15px;
+}
+
+.social a{
+    color:  #6DCCAA;
+    background-color:  #FFF;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 50%;
+    padding: 0.4em;
+}
+
+.social a:hover{
+    background-color:rgb(83, 221, 171);
+    color: #FFF;
+}
+
+#hambur{
+    padding-top: 0  px;
+    margin-bottom: 30px;
+    column-count: 2;
+}
+
+#fin2{
+    background: #020003;
+    width: 100%;
+    height: 170px;
+    padding-top: 50px;
+    text-align: center;
+}
+#crowfunding{
+    background: #f5fbff; 
+    text-align: center;
+    width: 100%;   
+    padding-top: 100px; 
+    margin-bottom: 0px;
+}
+
+
+.texto{
+    font-family: 'Channel', sans-serif;
+    font-size: 4.0em;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto2{
+    font-family: 'Open Sans', Arial;
+    font-size: 0.7em;
+    color:  #000;  
+    font-weight: bold; 
+    padding-top: 20px;
+}
+
+.texto3{
+    font-family: 'Open Sans', Arial;
+    font-size: 0.7em;
+    color:  #7c7b7b;  
+    font-weight: bold; 
+}
+
+#campanas{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+    font-weight: bold; 
+    border-style: solid;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+#pie{
+    background: #E5E8E8;
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 30px;
+    font-family: 'Open Sans', Arial;
+    font-size: 0.5em;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
