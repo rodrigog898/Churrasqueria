@@ -191,4 +191,146 @@ nav a:hover{
     color: #FFF;
 }
 
+.texto1{
+font-family: 'Aharoni';
+font-size: 5.5em;
+color: black;
+font-weight:bolder ; 
+text-align: center;
+}
+
+.texto2{
+    font-family: 'Aharoni';
+    font-size: 5.5em;
+    color: black;
+    font-weight:bolder ; 
+    text-align: center;
+    
+    }
+
+
+.nombre1{
+    font-family: 'Bradley Hand ITC';
+    font-size: 36px;
+    color: white;
+    font-weight:bolder ; 
+    text-align: right;
+    
+    }
+.ingredientes1{
+    font-family: 'Bradley Hand ITC';
+    font-size: 36px;
+    color: white;
+    font-weight:bolder ; 
+    text-align: center;
+    
+    }
+
+
+
+    .nombre2{
+        font-family: 'Bradley Hand ITC';
+        font-size: 36px;
+        color: white;
+        font-weight:bolder ; 
+        text-align: right;
+        
+        }
+    .ingredientes2{
+        font-family: 'Bradley Hand ITC';
+        font-size: 36px;
+        color: white;
+        font-weight:bolder ; 
+        text-align: center;
+        
+        }
+
+
+        .nombre3{
+            font-family: 'Bradley Hand ITC';
+            font-size: 36px;
+            color: white;
+            font-weight:bolder ; 
+            text-align: right;
+            
+            }
+        .ingredientes3{
+            font-family: 'Bradley Hand ITC';
+            font-size: 36px;
+            color: white;
+            font-weight:bolder ; 
+            text-align: center;
+            
+            }
+            .nombre5{
+                font-family: 'Bradley Hand ITC';
+                font-size: 36px;
+                color: white;
+                font-weight:bolder ; 
+                text-align: right;
+                
+                }
+            .ingredientes5{
+                font-family: 'Bradley Hand ITC';
+                font-size: 36px;
+                color: white;
+                font-weight:bolder ; 
+                text-align: center;
+                
+                }
+
+                .nombre6{
+                    font-family: 'Bradley Hand ITC';
+                    font-size: 36px;
+                    color: white;
+                    font-weight:bolder ; 
+                    text-align: right;
+                    
+                    }
+                .ingredientes6{
+                    font-family: 'Bradley Hand ITC';
+                    font-size: 36px;
+                    color: white;
+                    font-weight:bolder ; 
+                    text-align: center;
+                    
+                    }
+                    .nombre7{
+                        font-family: 'Bradley Hand ITC';
+                        font-size: 36px;
+                        color: white;
+                        font-weight:bolder ; 
+                        text-align: right;
+                        
+                        }
+                    .ingredientes7{
+                        font-family: 'Bradley Hand ITC';
+                        font-size: 36px;
+                        color: white;
+                        font-weight:bolder ; 
+                        text-align: center;
+                        
+                        }
+
+
+                        #pie2{
+                            background: white;
+                            height: 60px;
+                            padding-top: 5px;
+                            font-family: 'Open Sans', Arial;
+                            text-align: center;
+                            color: black;
+                            width: 100%;
+
+
+
+                        }
+
+
+
+
+
+    
+        
+    
 
