@@ -209,122 +209,176 @@ text-align: center;
     }
 
 
-.nombre1{
-    font-family: 'Bradley Hand ITC';
-    font-size: 36px;
+
+    
+
+
+.ingredientes {
     color: white;
-    font-weight:bolder ; 
+    font-size: 40px;
     text-align: right;
-    
-    }
-.ingredientes1{
     font-family: 'Bradley Hand ITC';
-    font-size: 36px;
-    color: white;
-    font-weight:bolder ; 
-    text-align: center;
     
-    }
+}
+
+.la_segura{
+    width:200; 
+    height:200;
+    display: flex;
+    margin: auto;
+    float: left;
+}
+
+.nombre{
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Bradley Hand ITC';
+    
+}
+
+.ingredientes1 {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Bradley Hand ITC';
+    
+}
+
+.la_crispy{
+    width:200; 
+    height:200;
+    display: flex;
+    margin: auto;
+    float: right;
+    
+}
+
+.nombre1 {
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    font-family: 'Bradley Hand ITC';
+    
+}
+
+.ingredientes2{
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    font-family: 'Bradley Hand ITC';
+    
+}
+
+.la_americana{
+    width:200; 
+    height:200;
+    display: flex;
+    margin: auto;
+    float: left;
+    
+}
+.nombre2 {
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    font-family: 'Bradley Hand ITC';
+    
+}
+.ingredientes3{
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    font-family: 'Bradley Hand ITC';
+    
+}
+
+.la_favorita{
+    width: 200;
+    height: 200;
+    display: flex;
+    margin: auto;
+    float: left;
+}
+
+.nombre3{
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Bradley Hand ITC';
+    
+}
+
+.ingredientes4{
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Bradley Hand ITC';
+    
+}
+
+
+.aguacatosa{
+    width: 200;
+    height: 200;
+    display: flex;
+    margin: auto;
+    float: right;
+}
+
+.nombre4{
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    font-family: 'Bradley Hand ITC';
+    
+}
+
+.ingredientes5{
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Bradley Hand ITC';
+    
+}
+
+.la_criolla{
+    width: 200;
+    height: 200;
+    display: flex;
+    margin: auto;
+    float: right;
+}
+
+.nombre5 {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Bradley Hand ITC';
+    
+}
 
 
 
-    .nombre2{
-        font-family: 'Bradley Hand ITC';
-        font-size: 36px;
-        color: white;
-        font-weight:bolder ; 
-        text-align: right;
-        
-        }
-    .ingredientes2{
-        font-family: 'Bradley Hand ITC';
-        font-size: 36px;
-        color: white;
-        font-weight:bolder ; 
-        text-align: center;
-        
-        }
-
-
-        .nombre3{
-            font-family: 'Bradley Hand ITC';
-            font-size: 36px;
-            color: white;
-            font-weight:bolder ; 
-            text-align: right;
-            
-            }
-        .ingredientes3{
-            font-family: 'Bradley Hand ITC';
-            font-size: 36px;
-            color: white;
-            font-weight:bolder ; 
-            text-align: center;
-            
-            }
-            .nombre5{
-                font-family: 'Bradley Hand ITC';
-                font-size: 36px;
-                color: white;
-                font-weight:bolder ; 
-                text-align: right;
-                
-                }
-            .ingredientes5{
-                font-family: 'Bradley Hand ITC';
-                font-size: 36px;
-                color: white;
-                font-weight:bolder ; 
-                text-align: center;
-                
-                }
-
-                .nombre6{
-                    font-family: 'Bradley Hand ITC';
-                    font-size: 36px;
-                    color: white;
-                    font-weight:bolder ; 
-                    text-align: right;
-                    
-                    }
-                .ingredientes6{
-                    font-family: 'Bradley Hand ITC';
-                    font-size: 36px;
-                    color: white;
-                    font-weight:bolder ; 
-                    text-align: center;
-                    
-                    }
-                    .nombre7{
-                        font-family: 'Bradley Hand ITC';
-                        font-size: 36px;
-                        color: white;
-                        font-weight:bolder ; 
-                        text-align: right;
-                        
-                        }
-                    .ingredientes7{
-                        font-family: 'Bradley Hand ITC';
-                        font-size: 36px;
-                        color: white;
-                        font-weight:bolder ; 
-                        text-align: center;
-                        
-                        }
-
-
-                        #pie2{
-                            background: white;
-                            height: 60px;
-                            padding-top: 5px;
-                            font-family: 'Open Sans', Arial;
-                            text-align: center;
-                            color: black;
-                            width: 100%;
 
 
 
-                        }
+.featurette-divider {
+    margin: 5rem 0; 
+}
+
+#pie2{
+background: white;
+height: 60px;
+padding-top: 5px;
+font-family: 'Open Sans', Arial;
+text-align: center;
+color: black;
+width: 100%;
+
+
+
+}
 
 
 
