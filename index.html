@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="fonts/style.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Churrasqueria</title>
 </head>
 
@@ -18,24 +21,54 @@
 
             </section> 
             <nav>
-				<a href="#inicio">Inicio</a>
+				<a href="indexs.html">Inicio</a>
 				<a href="quienes.html">Quienes Somos</a>
                 <a href="productos.html">Productos</a>
-                <a href="contacto.html">contáctanos</a>
+                <a href="contacto.html">Contáctanos</a>
 			</nav>   
         </header>
         <section id="medio">
-            <img class="logo-burguer" src="img/fondo11.jpg" alt="">
+            <div class="container"> 
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+              
+                  
+                  <center><div class="carousel-inner">
+                    <div class="item active">
+                      <img src="img/slide 3.jpg" alt="" style="width:70%;">
+                    </div>
+              
+                    <div class="item">
+                      <img src="img/slide 2.jpg" alt="Chicago" style="width:70%;" >
+                    </div>
+                  
+                    <div class="item">
+                      <img src="img/slide 1.jpg" alt="New york" style="width:70%;">
+                    </div>
+                  </div></center>
+              
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Anterior</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Siguente</span>
+                  </a>
+                </div>
+              </div>
         </section>
         
         <section id="fin">
             <img class="fotos-fin" src="img/hambur.png" alt="">
         </section>
-        
-        
-        
-        
-        
+
         <section id="informacion">
             <section id="ubicacion ">
                 <p class="texto">Donde encontrarnos</p>
@@ -45,7 +78,7 @@
             </section>
             <section id="descuentos">
                     
-                    <p class="texto">Descuento del dia</p>
+                    <p class="texto">Descuento del día</p>
                     <p class="texto2">_______________________</p>
                     <img class="foto-descuento" src="img/burgerf1.jpg">
                     
@@ -53,16 +86,7 @@
                   
             </section>
         </section>
-        <footer id="pie">
-            <p class="texto11">Sociedad Churrasqueria Ltda. © 2021</p> 
-            
-            <span class="social">
-                <a href="https://www.facebook.com" class="icon-facebook" target="_blank"></a>
-                <a href="https://www.google.com" class="icon-google-plus" target="_blank"></a>
-                <a href="https://instagram.com/thebigbajon.cl?igshid=1itrvbzej5bao" class="icon-instagram" target="_blank"></a>
-                <a href="https://www.gmail.com" class="icon-envelop" target="_blank"></a>
-            </span>    
-        </footer>
+
 </body>
 
 </html>
