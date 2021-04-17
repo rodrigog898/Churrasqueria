@@ -229,7 +229,7 @@ text-align: center;
     float: left;
 }
 
-.nombre{
+.nombre3{
     color: white;
     font-size: 40px;
     text-align: left;
@@ -254,7 +254,7 @@ text-align: center;
     
 }
 
-.nombre1 {
+.nombre4 {
     color: white;
     font-size: 40px;
     text-align: right;
@@ -278,10 +278,10 @@ text-align: center;
     float: left;
     
 }
-.nombre2 {
+.nombre5 {
     color: white;
     font-size: 40px;
-    text-align: right;
+    text-align: left;
     font-family: 'Bradley Hand ITC';
     
 }
@@ -301,7 +301,7 @@ text-align: center;
     float: left;
 }
 
-.nombre3{
+.nombre{
     color: white;
     font-size: 40px;
     text-align: left;
@@ -326,7 +326,7 @@ text-align: center;
     float: right;
 }
 
-.nombre4{
+.nombre1{
     color: white;
     font-size: 40px;
     text-align: right;
@@ -337,7 +337,7 @@ text-align: center;
 .ingredientes5{
     color: white;
     font-size: 40px;
-    text-align: left;
+    text-align: right;
     font-family: 'Bradley Hand ITC';
     
 }
@@ -347,10 +347,10 @@ text-align: center;
     height: 200;
     display: flex;
     margin: auto;
-    float: right;
+    float: left;
 }
 
-.nombre5 {
+.nombre2 {
     color: white;
     font-size: 40px;
     text-align: left;
@@ -379,6 +379,56 @@ width: 100%;
 
 
 }
+
+
+.comunicarce{
+    width: 1070px;
+    height: 312px;
+    display: flex;
+    margin: auto;
+    
+
+
+}
+
+
+
+
+#pie3{
+    background: #E5E8E8;
+    height: 60px;
+    padding-top: 5px;
+    font-family: 'Open Sans', Arial;
+    text-align: center;
+    color: black;
+    width: 100%;
+    
+    
+    
+}
+
+
+
+.wsp{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    
+
+
+}
+
+.respuesta{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Arial';
+    
+}
+
+
+
 
 
 
