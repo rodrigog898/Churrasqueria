@@ -122,6 +122,7 @@ nav a:hover{
     padding-top: 10px;
     text-align: center; 
 }
+
 .texto{
     font-family: 'Showcard Gothic';
     font-size: 2.5em;
@@ -130,12 +131,13 @@ nav a:hover{
     text-align: center;
 }
 .texto11{
-    font-family: 'cslibri';
-    font-size: 0.8em;
-    color: #000000;
+    font-family: 'calibri';
+    font-size: 1em;
+    color: white;
     font-weight:bolder; 
     text-align: left;
     padding-left: 20px;
+    padding-top: 0px;
 }
 
 .texto2{
@@ -154,27 +156,19 @@ nav a:hover{
 }
 
 #pie{
-    background: #E5E8E8;
-    height: 60px;
-    padding-top: 5px;
+    background:black;
+    height: 70px;
     font-family: 'Open Sans', Arial;
-    
     color: #000000;
     width: 100%;
-
-
-
-
-
-
 }
+
 .social{
-    padding-left: 1500px; 
-    
+    padding-left: 1500px;     
 }
 
 .icon-facebook, .icon-google-plus, .icon-instagram, .icon-envelop{
-    margin-right: 6px;
+    margin-right: 10px;
 }
 
 .social a{
@@ -190,5 +184,103 @@ nav a:hover{
     background-color:grey;
     color: #FFF;
 }
+
+#productos{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    column-count: 2;
+    text-align: center;
+}
+
+.foto-productos{
+    width: 60%;   
+    padding-top: 0px;
+    text-align: center; 
+}
+.foto-productos1{
+    width: 60%;   
+    padding-top: 10''0px;
+    text-align: center; 
+}
+.foto-productos2{
+    width: 70%;   
+    padding-top: 10''0px;
+    text-align: center; 
+}
+.textop{
+    font-family: 'Showcard Gothic';
+    font-size: 2em;
+    color: white;
+    font-weight:bolder ; 
+    text-align: left;
+    padding-top: 110px;
+    padding-left: 400px;
+}
+.textop1{
+    font-family: 'Showcard Gothic';
+    font-size: 2em;
+    color: white;
+    font-weight:bolder ; 
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 300px;
+    text-align: center;
+}
+.textop2{
+    font-family: 'Showcard Gothic';
+    font-size: 2em;
+    color: white;
+    font-weight:bolder ; 
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 400px;
+}
+
+
+#productos-s{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    column-count: 2;
+    text-align: center;
+}
+
+.foto-productos-s{
+    width: 70%;   
+    padding-top: 150px;
+    text-align: center; 
+    padding-left: 50px;
+}
+.textop-s1{
+    font-family: 'Lucida Handwriting';
+    font-size: 1.5em;
+    color: white;
+    font-weight:bolder ; 
+    text-align: left;
+    padding-top: 40px;
+    
+}
+.textop-s{
+    font-family: 'Lucida Handwriting';
+    font-size: 3em;
+    color: white;
+    font-weight:bolder ; 
+    text-align: center;
+    padding-top: 10px;
+    padding-left: px;
+    
+}
+.textop-sp{
+    font-family: 'Lucida Handwriting';
+    font-size: 1em;
+    color: white;
+    font-weight:bolder; 
+    text-align: left;
+    padding-top: 200px;
+    padding-right: 10px;
+    
+}
+
+
+
 
 
