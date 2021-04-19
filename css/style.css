@@ -76,23 +76,9 @@ nav a:hover{
     text-align: center;
 }
 
-.telefono{  
-    font-family: "Kanit", sans-serif;
-    font-size: 1.0em;
-    color: #FFF;
-    font-weight: bold;  
-    padding-left: 20px; 
-    padding-right: 80px;
-}
 
-.info{
-    font-family: "Kanit", sans-serif;
-    font-size: 0.9em;
-    color: #FFF;
-    font-weight: bold;
-    padding-left: 220px; 
-    padding-right: 20px;
-}
+
+
 
 
 
@@ -250,6 +236,12 @@ nav a:hover{
     text-align: center; 
     padding-left: 50px;
 }
+.foto-nosotros{
+    width: 90%;   
+    padding-top: 100px;
+    text-align: center; 
+    padding-left: 50px;
+}
 .textop-s1{
     font-family: 'Lucida Handwriting';
     font-size: 1.5em;
@@ -279,6 +271,63 @@ nav a:hover{
     padding-right: 10px;
     
 }
+.textop-sp2{
+    font-family: 'calibri';
+    font-size: 1.5em;
+    color: white;
+    font-weight:bolder; 
+    text-align: left;
+    padding-top: 250px;
+    padding-right: 10px;
+    
+}
+.textop-sp3{
+    font-family: 'Calibri light';
+    font-size: 2em;
+    color: white;
+    font-weight:bolder; 
+    text-align: left;
+    padding-top: 350px;
+    padding-right: 10px;
+    
+}
+
+
+#informacion1{
+    padding-top: 400px;
+    margin-bottom: 500px;
+    column-count: 3;
+    text-align: center;
+}
+
+#ubicacion1{
+    text-align: left;
+    padding-right: 10 px;
+}
+#descuentos1{ 
+    text-align: center;
+}
+#telefono1{ 
+    text-align: right   ;
+}
+
+.foto-ubicacion1{
+    width: 100%;   
+    padding-top: 10px;
+    text-align: left; 
+    
+}
+.foto-descuento1{
+    width:100%;   
+    padding-top: 10px;
+    text-align: center; 
+}
+.foto-telefono1{
+    width: 100%;   
+    padding-top: 10px;
+    text-align: right; 
+}
+
 
 
 
