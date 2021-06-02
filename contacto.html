@@ -65,19 +65,32 @@
                 </div>  
             </header>
         </div>
+        <h2 class="textop-s">La Churrasqueria</h2>
         <div class="container">
             <div class="row">
                 <form id="formulario" name="formulario" action="recibe.php" method="GET" enctype="multipart/form-data" >
                     <div class="form-group">
                         <label for="nombre">Nombre *</label>
-                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="ingrese nombre" />
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese nombre" />
                     </div>
                     <div class="form-group">
                         <label for="email">Correo Electronico *</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="ingrese email" />
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese email" />
                     </div>
-                    <input type="submit" class="btn btn-danger" id="enviar" name="enviar" value="enviar" />
-                    <input type="reset" class="btn btn-primary" id="reset" name="reset" value="Limpiar" />
+                    <div class="form-group">
+                        <label for="email">RUT *</label>
+                        <input type="text" class="form-control" id="rut" name="rut" placeholder="Ingrese su rut" />
+                    </div>
+                    <div class="form-group">
+                        <label for="direccion">Direccion *</label>
+                        <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Ingrese su direccion" />
+                    </div>
+                    <div class="form-group">
+                        <label for="comentario">Comentario *</label>
+                        <p><textarea class="form-control" id="comentario" name="comentario" cols="10" rows="10" placeholder="Ingrese su comentario"></textarea> </textarea></p>
+                    </div>
+                    <input type="submit" class="btn btn-danger" id="Enviar" name="Enviar" value="ENVIAR" />
+                    <input type="reset" class="btn btn-primary" id="reset" name="reset" value="LIMPIAR" />
         
                     <div id="error" class="alert alert-danger" role="alert"></div>
                 </form>
