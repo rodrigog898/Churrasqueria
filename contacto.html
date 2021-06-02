@@ -15,7 +15,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <script type="text/javascript">
     //escribir validaciones
-        $(document).ready(function(){
+    $(document).ready(function(){
             
             $("#error").hide();
 
@@ -27,6 +27,19 @@
                 if($("#email").val().trim().length == 0){
                     mensaje = "debe completar el campo obligatorio de correo";
                 }
+                if($("#direccion").val().trim().length == 0){
+                    mensaje = "debe completar el campo obligatorio de direccion";
+                }
+                if($("#telefono").val().trim().length == 0){
+                    mensaje = "debe completar el campo obligatorio de telefono";
+                }
+                if($("#comentario").val().trim().length < 50){
+                    mensaje = "El comentario debe tener mas de 50 caracteres";
+                }
+                if($("#rut").val().trim().length < 9){
+                    mensaje = "El rut es muy pequeño";
+                }
+
 
                 if(mensaje != ""){
                     $("#error").html(mensaje);
@@ -82,6 +95,10 @@
                         <input type="text" class="form-control" id="rut" name="rut" placeholder="Ingrese su rut" />
                     </div>
                     <div class="form-group">
+                        <label for="email">Telefono*</label>
+                        <input type="text" class="form-control" id="Telefono" name="Telefono" placeholder="Ingrese su Telefono" />
+                    </div>
+                    <div class="form-group">
                         <label for="direccion">Direccion *</label>
                         <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Ingrese su direccion" />
                     </div>
@@ -99,7 +116,7 @@
         <div>
             <footer id="pie" style="padding-top: 0px;">
                 <p class="texto11">Sociedad Churrasqueria Ltda. © 2021</p> 
-                <span class="social">
+                <span class="social" style="padding-top: 0px;">
                     <a href="https://www.facebook.com" class="icon-facebook" target="_blank"></a>
                     <a href="https://www.google.com" class="icon-google-plus" target="_blank"></a>
                     <a href="https://instagram.com/thebigbajon.cl?igshid=1itrvbzej5bao" class="icon-instagram" target="_blank"></a>
